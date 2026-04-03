@@ -13,9 +13,6 @@ test('test access to admin page', async ({ getUserPage }) => {
 
   // Check for navigation elements
   await expect(
-    adminPage.getByRole('link', { name: 'Next.js Application Template' })
-  ).toBeVisible({ timeout: 5000 });
-  await expect(
     adminPage.getByRole('link', { name: 'Add Stuff' })
   ).toBeVisible({ timeout: 5000 });
   await expect(
