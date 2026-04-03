@@ -28,7 +28,7 @@ jobs:
     
     env:
       DATABASE_URL: postgresql://postgres:postgres@localhost:5432/playwright_test
-      NEXTAUTH_SECRET: secret
+      NEXTAUTH_SECRET: Xmtn263YTsiFyQufW7V5YmfYGa3pZMsc
       NEXTAUTH_URL: http://localhost:3000
       PLAYWRIGHT_TEST_BASE_URL: http://localhost:3000
       NODE_ENV: test
